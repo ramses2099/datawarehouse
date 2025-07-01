@@ -8,3 +8,30 @@ SQL Server Data Warehouse Project
 ## ETL
 - ETL stands for Extract, Transform, Load. It's a data integration process used to combine data from multiple sources into a single, unified repository, often a data warehouse or data lake. This process involves extracting data from various sources, transforming it into a usable format, and then loading it into the target system. 
 
+## Tools for the project
+1. SQL Server Express
+1. SQL Server Management Studio (SSMS)
+1. Git Repository
+1. DrawIO
+1. Notion
+
+## Project Requirements
+- Building the Data Warehouse (Data Engineering)
+### Objective
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+
+### Specifications
+- **Data Sources:** Import data from two sources system (ERP and CRM) provided as CSV files.
+- **Data Quality:** Cleanse and resolve data quality issues prior to analysis.
+- **Integration:** Combine both sources into a single, user-friendly dta model designed for analytical queries.
+- **Scope:** Focus on the latest dataset onlyl; historization of data is not required.
+- **Documentation:** Provide clear documentation of the data model to support both business stakeholders and analytics team.
+
+## BI: Analytics & Reporting (Data Analysis)
+### Objective
+Develop SQL-based analytics to deliver detailed insigths into:
+- **Customer Behavior**
+- **Product Performance**
+- **Sales Trends**
+
+These insights empower stakeholders with key business metrics, strategic decision-making.
