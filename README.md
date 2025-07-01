@@ -35,3 +35,30 @@ Develop SQL-based analytics to deliver detailed insigths into:
 - **Sales Trends**
 
 These insights empower stakeholders with key business metrics, strategic decision-making.
+
+## General Principles
+- **Naming Conventions:** Use snake_case, with lowercase and underscores ( _ ) to separate words.
+- **Language:** Use English for all names.
+- **Avoid Reserved Words:** Do not use SQL reserved word as object names.
+
+## Table Naming Conventions
+### Bronze Rules
+- All names must start with the sources system name, and tables must match their orginal names without renaming.
+- sourcesystem_entity
+- sourcesystem: Name of the source system (e.g., crm, erp)
+- entity: Exact table name from the source system.
+- Example: crm_customer_info -> Customer information from the CRM system.
+
+### Silver Rules
+- All names must start with the sources system name, and tables must match their orginal names without renaming.
+- sourcesystem_entity
+- sourcesystem: Name of the source system (e.g., crm, erp)
+- entity: Exact table name from the source system.
+- Example: crm_customer_info -> Customer information from the CRM system.
+
+### Gold Rules
+- All names must start with the sources system name, and tables must match their orginal names without renaming.
+- sourcesystem_entity
+- sourcesystem: Name of the source system (e.g., crm, erp)
+- entity: Exact table name from the source system.
+- Example: crm_customer_info -> Customer information from the CRM system.
